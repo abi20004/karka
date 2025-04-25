@@ -1,0 +1,50 @@
+    .parent1{
+        height: 500px;
+        width: 100%;
+        background-color: black; 
+    }
+    .child1{
+        height: 100px;
+        width: 100%;
+        background-color: aquamarine;
+    }
+    .child2{
+        height: 100px;
+        width: 100%;
+        background-color:brown;
+    }
+    .child3{
+        height: 200px;
+        width: 100%;
+        background-color: white;
+    }
+    .baby1{
+        display: inline-block;
+        height:200px;
+        width: 50%;
+        background-color: bisque;
+    }
+    .papa1{
+        height: 100px;
+
+        background-color: aqua;
+    }
+    .papa2{
+        height: 100px;
+        background-color: fuchsia;
+    }
+    .baby2{
+        display: inline-block;
+        height: 100px;
+        width: 48%;
+        background-color:darkolivegreen;
+        padding-top: 100px;
+    }
+    .child4{
+        height: 100px;
+        width: 100%;
+        background-color: palegoldenrod;
+    }
+
+
+    

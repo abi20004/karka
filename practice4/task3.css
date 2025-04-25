@@ -1,0 +1,57 @@
+    *{
+        margin: 2%;
+        padding: 0%;
+    }
+    .parent{
+        height: 800px;
+        width: 70%;
+        background-color: white;
+    }
+    .child1{
+        height: 100px;
+        width: 70%;
+        background-color:powderblue;
+    }
+    .child2{
+        height: 100px;
+        width: 70%;
+        background-color:powderblue;
+    }
+    .child3{
+        height: 400px;
+        width: 70%;
+    }
+    .baby1{
+        display: inline-block;
+        height: 200px;
+        width: 35%;
+        background-color:powderblue;
+        padding-top: 200px;
+     }
+     .baby2{
+        display: inline-block;
+        height: 400px;
+        width: 34%;
+     }
+     .papa1{
+        height: 200px;
+        width: 100%;
+        background-color: powderblue;
+        border: 2px solid white;
+     }
+     .papa2{
+        height: 200px;
+        width: 100%;
+        background-color: powderblue;
+     }
+     .child4{
+        height: 100px;
+        width: 70%;
+        background-color: powderblue;
+     }
+     .child5{
+        height: 100px;
+        width: 70%;
+        background-color:powderblue;
+     }
+
