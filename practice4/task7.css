@@ -1,0 +1,28 @@
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    .parent{
+        height: auto;
+        height: auto;
+    }
+    .child1{
+        height: 100px;
+        width: 80%;
+        background-color: plum;
+    }
+    .child2{
+        height: 50px;
+        width: 80%;
+        background-color: blueviolet;
+    }
+    .child3{
+        height: 300px;
+        width: 80%;
+        background-color: white;
+    }
+    .child4{
+        height: 100px;
+        width: 80%;
+        background-color:purple;
+    }
