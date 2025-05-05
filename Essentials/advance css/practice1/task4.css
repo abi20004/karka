@@ -1,0 +1,74 @@
+.parent{
+    height: 700px;
+    width: 90%;
+    background-color: rgb(83, 83, 183);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.child1{
+    height:190px;
+    width: 90%;
+    background-color:rgba(255, 255, 255, 0.856);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child2{
+    height: 490px;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.baby1{
+    height: 490px;
+    width: 39%;
+    background-color:rgba(255, 255, 255, 0.856);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.baby2{
+    height:490px;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.papa1{
+    height:247px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.abi1{
+    height: 247px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.856);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.abi2{
+    height: 247px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.856);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.papa2{
+    height:247px;
+    width: 100%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.856);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

@@ -1,0 +1,73 @@
+.parent{
+    height: 940px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: gray;
+    gap: 10px;
+
+}
+.child1{
+    height: 80px;
+    width: 80%;
+    background-color: plum;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.mu1{
+    height: 80px;
+    width: 65%;
+    background-color: plum;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 50px;
+
+}
+.mu2{
+    height: 80px;
+    width: 30%;
+    background-color: plum;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.vi1{
+     height: 20px;
+     width: 59%;
+     background-color: white;
+}
+.vi2{
+    height: 20px;
+    width: 15%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.child2{
+    height: 670px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.baby1{
+    height: 670px;
+    width: 69%;
+    background-color: white;
+}
+.baby2{
+    height: 670px;
+    width: 28%;
+    background-color: plum;
+}
+.child3{
+    height: 40px;
+    width: 80%;
+    background-color: white;
+}

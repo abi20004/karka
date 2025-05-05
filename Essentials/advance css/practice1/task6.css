@@ -1,0 +1,41 @@
+.parent{
+    height: 600px;
+    width: 100%;
+}
+.child1{
+    height: 100px;
+    width: 100%;
+    background-color:gold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.child2{
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+.baby1{
+    height: 450px;
+    width: 30%;
+    background-color: blue;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.baby2{
+    height: 450px;
+    width: 70%;
+    background-color: green;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.child3{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}

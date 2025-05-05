@@ -1,0 +1,67 @@
+.parent{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.child1{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(223, 218, 218);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.child2{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(223, 218, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child3{
+    height: 180px;
+    width: 100%;
+    background-color: rgb(223, 218, 218);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.child4{
+    height: 195px;
+    width: 100%;display: flex;
+    justify-content: space-between;
+}
+.baby1{
+    height: 195px;
+    width: 33%;
+    background-color: rgb(223, 218, 218);
+    display: flex;
+    justify-content: center;
+}
+.baby2{
+    height: 195px;
+    width: 33%;
+    background-color: rgb(223, 218, 218);
+    display: flex;
+    justify-content: center;
+}
+.baby3{
+    height: 195px;
+    width: 33%;
+    background-color: rgb(223, 218, 218);
+    display: flex;
+    justify-content: center;
+}
+.child5{
+    height: 95px;
+    width: 100%;
+    background-color: rgb(223, 218, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
