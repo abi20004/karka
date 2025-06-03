@@ -1,0 +1,171 @@
+.parent{
+    height: 500px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child1{
+    height: 300px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.baby1{
+    height: 300px;
+    width: 40%;
+    background-color: rgb(225, 105, 105);
+    display: flex;
+    flex-direction: column;
+}
+.abi1{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 280px;
+    left: 280px;
+}
+.abi2{
+    height: 40px;
+    width: 40px;
+    background-color:red;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -22px;
+    left: 280px;
+}
+.abi3{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hu1{
+    height: 100px;
+    width: 24%;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.hu2{
+    height: 100px;
+    width: 24%;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.hu3{
+    height: 100px;
+    width: 24%;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+.hu4{
+    height: 100px;
+    width: 24%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.abi4{
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+.ma1{
+    height:200px;
+    width: 70%;
+    font-size: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+.ma2{
+    height: 200px;
+    width: 30%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}
+.gu1{
+    width: 30px;
+    color: white;
+}
+.gu2{
+  font-size: 15px;
+}
+.gu3{
+  font-size: 15px;
+}
+.gu4{
+    font-size: 15px;
+}
+.baby2{
+    height: 300px;
+    width: 60%;
+    background-color: white;
+}
+.mu1{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.ra1{
+    height: 200px;
+    width: 80%;
+    font-size: 70px;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.ra2{
+    height: 200px;
+    width: 20%;
+    font-size: 50px;
+    display: flex;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mu2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.mi1{
+    height:100px;
+    width: 20%;
+}
+.mi2{
+    height:100px;
+    width: 20%;
+}
+.mi3{
+    height:100px;
+    width: 20%;
+}
+.mi4{
+    height: 100px;
+    width: 20%;
+}
