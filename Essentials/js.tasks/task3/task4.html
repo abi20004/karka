@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>User Info</h2>
+  <div id="user"></div>
+
+  <script>
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then(response => response.json())
+      .then(data => {
+        const userDiv = document.getElementById("user");
+        let html = "";
+
+        data.forEach(user => {
+          html += `
+            <div style="margin-bottom: 10px;">
+              <p><strong>Name:</strong> ${user.name}</p>
+              <p><strong>Email:</strong> ${user.email}</p>
+              <p><strong>City:</strong> ${user.address.city}</p>
+            </div>
+            <hr/>
+          `;
+        });
+
+        userDiv.innerHTML = html;
+      })
+      .catch(error => {
+        console.log("error:", error);
+      });
+  </script>
+</body>
+</html>

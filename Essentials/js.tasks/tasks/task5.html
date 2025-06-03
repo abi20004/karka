@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="abi" onchange="user()">
+    <h1 id="sas"></h1>
+    <script>
+        function user(){
+            let abi=document.getElementById("abi").value 
+            let sas=document.getElementById("sas")
+            sas.textContent=abi
+            console.log("hi",abi)
+        }
+    </script>
+</body>
+</html>

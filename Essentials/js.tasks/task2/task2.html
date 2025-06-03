@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Selector Demo</title>
+  <style>
+    .highlight {
+      color: blue;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="title">Hello World</h1>
+  <p class="text">Paragraph 1</p>
+  <p class="text">Paragraph 2</p>
+  <p class="text">Paragraph 3</p>
+  <button id="changeBtn">Change Content</button>
+
+  <script>
+
+    const title = document.getElementById('title');
+    title.textContent = 'Title Changed with getElementById()';
+    console.log('getElementById:', title);
+
+
+    const firstParagraph = document.querySelector('.text');
+    firstParagraph.style.color = 'red';
+    console.log('querySelector:', firstParagraph);
+
+    
+    const allParagraphs = document.querySelectorAll('.text');
+    allParagraphs.forEach(p => {
+      p.classList.add('highlight');
+    });
+    console.log('querySelectorAll:', allParagraphs);
+  </script>
+
+</body>
+</html>

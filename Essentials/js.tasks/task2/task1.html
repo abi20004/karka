@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h2>choose the option</h2>
+<input type="radio" name="options" value="option1" > Option 1
+<input type="radio" name="options" value="option2"> Option 2
+<input type="radio" name="options" value="option3"> Option 3
+<br>
+<h2>select the colour</h2>
+<input type="checkbox" name="clr" value="plum">plum <br>
+<input type="checkbox" name="clr" value="black">black <br>
+<input type="checkbox" name="clr" value="blue">blue <br><br>
+<button onclick="submitForm()">Submit</button>
+<p id="result1"></p>
+<p id="result2"></p>
+<script>
+    function submitForm() {
+        const selectedOption = document.querySelector('input[name="options"]:checked');
+       document.getElementById("result1").innerHTML = "You selected: " + selectedOption.value;
+       
+       const user=document.querySelectorAll('input[name="clr"]:checked');
+       const box=Array.from(user).map(clr=>clr.nextSibling.textContent).join(",")
+       document.getElementById("result2").innerHTML="you fav colour:  "+box
+    }
+</script>
+
+</body>
+</html>
