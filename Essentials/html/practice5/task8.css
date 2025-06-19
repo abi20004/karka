@@ -1,0 +1,28 @@
+.Memes{
+    border:10px solid black;
+        
+        width:1000px;
+        height:600px
+}
+
+#m1{
+    background-color:lightblue;width:700px;height: 40px;
+    margin-bottom:10px;
+} 
+
+#m2{
+    background-color:lightblue;width:700px;height:40px;
+    margin-bottom:20px;margin-top:5px
+  } 
+
+
+
+.memes1{
+    display:flex;
+flex-direction: row;
+margin-bottom:0px}
+
+#img{
+    margin-top:10px;
+     margin-left:200px      
+}
