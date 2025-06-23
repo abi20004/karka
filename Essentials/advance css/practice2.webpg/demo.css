@@ -1,0 +1,123 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.parent{
+    height: 1100px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.child1{
+    height: 300px;
+    width: 100%;
+}
+.child2{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.baby1{
+    height: 200px;
+    width: 25%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.baby2{
+    height: 200px;
+    width: 25%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.baby3{
+    height: 200px;
+    width: 25%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.baby4{
+    height: 200px;
+    width: 25%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.child3{
+    height: 550px;
+    width: 100%;
+    background-color: rgb(201, 198, 198);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dd1{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
+.dd2{
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cc1{
+    height: 190px;
+    width: 32%;
+}
+.cc2{
+    height: 190px;
+    width: 32%;
+}
+.cc3{
+    height: 190px;
+    width: 32%;
+}
+.dd3{
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pp1{
+    height: 190px;
+    width: 32%;
+}
+.pp2{
+    height: 190px;
+    width: 32%;
+}
+.pp3{
+    height: 190px;
+    width: 32%;
+}
+.dd4{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bb{
+    height: 25px;
+    width: 14%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
